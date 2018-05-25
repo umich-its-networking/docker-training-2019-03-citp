@@ -11,6 +11,6 @@ $ docker run -v $(pwd):/usr/share/nginx/html:ro -p 8080:80 nginx
 
 This will start a new container based on the `nginx` image. It will pull the image first if it doesn't already exist locally.
 
-You can connect to the server in your browser at http://127.0.0.1:8080/ (or the IP of the host where you're running Docker on).
+You can connect to the server in your browser at http://127.0.0.1:8080/ (or use `curl http://127.0.0.1:8080/` if you're running Docker somewhere else).
 
 Use ^C to stop the server.
