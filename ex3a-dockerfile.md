@@ -53,7 +53,7 @@ if __name__ == "__main__":
 Build the image with the `build` command. If you don't have the `python:3.6-slim` image, Docker will fetch it for you because our Dockerfile is based on it.
 
 ```terminal
-$ docker build -t ex3a .
+$ docker build -t app:3a .
 Sending build context to Docker daemon   16.9kB
 Step 1/8 : FROM python:slim
 slim: Pulling from library/python
@@ -117,7 +117,7 @@ Successfully tagged ex3a:latest
 Try running the same command again. Note that the output is different, and that it runs much faster, because the work has already been done and Docker is taking advantage of its cache.
 
 ```terminal
-$ docker build -t ex3a .
+$ docker build -t app:3a .
 Sending build context to Docker daemon  4.096kB
 Step 1/8 : FROM python:slim
  ---﹥ d6f22b3a2b87
@@ -151,7 +151,7 @@ Successfully tagged ex3a:latest
 Run a container based on the `ex3a` image.
 
 ```terminal
-$ docker run -p 8000:8000 ex3a
+$ docker run -p 8000:8000 app:3a
  * Serving Flask app "app" (lazy loading)
  * Environment: production
    WARNING: Do not use the development server in a production environment.
