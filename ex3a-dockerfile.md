@@ -3,6 +3,8 @@ title: Create an application and Dockerfile
 layout: page
 ---
 
+*(You can download the files for this excercise: [ex3a.zip]({{ "/ex3a.zip" | relative_url }}), and skip the file creation steps.)*
+
 Create a new directory called `ex3a`
 
 ```terminal
