@@ -17,6 +17,8 @@ In the new directory, create a file called `Dockerfile` with these contents:
 ```dockerfile
 FROM python:3.6-slim
 
+ENV FLASK_DEBUG=1
+
 COPY requirements.txt /tmp
 RUN pip install -r /tmp/requirements.txt
 
@@ -25,7 +27,7 @@ ADD . /usr/src/app
 
 EXPOSE 8000
 
-CMn ["python", "app.py"]
+CMD ["python", "app.py"]
 ```
 
 Create a file called `requirements.txt` with these contents:
