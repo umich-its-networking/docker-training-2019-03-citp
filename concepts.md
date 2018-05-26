@@ -1,5 +1,5 @@
 ---
-title: Conceptual overview of Docker
+title: Docker Concepts
 layout: page
 ---
 
