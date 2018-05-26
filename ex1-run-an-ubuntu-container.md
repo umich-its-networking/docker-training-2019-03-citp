@@ -1,9 +1,9 @@
 ---
-title: "Excercise 1: Run an Ubuntu container"
+title: "Exercise 1: Run an Ubuntu container"
 layout: page
 ---
 
-The excercise will demonstrate the ephemerality of a Docker container.
+The exercise will demonstrate the ephemerality of a Docker container.
 
 Start by pulling the Ubuntu Docker image from Docker Hub.
 

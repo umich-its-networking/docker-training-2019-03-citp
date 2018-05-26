@@ -1,5 +1,5 @@
 ---
-title: "SOLUTION Excercise 3b: Set enviromental variables"
+title: "SOLUTION Exercise 3b: Set enviromental variables"
 layout: page
 ---
 

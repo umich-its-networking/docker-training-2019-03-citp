@@ -1,5 +1,5 @@
 ---
-title: "SOLUTION Excercise 2: Home directory web server"
+title: "SOLUTION Exercise 2: Home directory web server"
 layout: page
 ---
 

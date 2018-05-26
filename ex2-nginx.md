@@ -1,5 +1,5 @@
 ---
-title: "Excercise 2: Home directory web server"
+title: "Exercise 2: Home directory web server"
 layout: page
 ---
 

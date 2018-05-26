@@ -4,7 +4,7 @@ layout: page
 ---
 
 
-Copy your directory from the previous excercise to a new directory called `ex3b`
+Copy your directory from the previous exercise to a new directory called `ex3b`
 
 ```terminal
 $ cp -r ex3a ex3b
@@ -29,6 +29,6 @@ $ docker run -p 8000:8000 app:3b
 
 Figure out how to set the `NAME` environment variable in the container at runtime. (Hint: read the documentation for the --env (-e) flag in the [docker run reference](https://docs.docker.com/engine/reference/commandline/run/).)
 
-*(You can download the files for this excercise, this contains the solution to the first part of this excercise: [ex3b.zip]({{ "/ex3b.zip" | relative_url }}).)*
+*(You can download the files for this exercise, this contains the solution to the first part of this exercise: [ex3b.zip]({{ "/ex3b.zip" | relative_url }}).)*
 
 [\_]({{ "/ex3b-env-var-solution/" | relative_url }})

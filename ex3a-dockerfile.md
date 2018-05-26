@@ -3,7 +3,7 @@ title: Create an application and Dockerfile
 layout: page
 ---
 
-*(You can download the files for this excercise: [ex3a.zip]({{ "/ex3a.zip" | relative_url }}), and skip the file creation steps.)*
+*(You can download the files for this exercise: [ex3a.zip]({{ "/ex3a.zip" | relative_url }}), and skip the file creation steps.)*
 
 Create a new directory called `ex3a`
 
@@ -167,4 +167,4 @@ $ docker run -p 8000:8000 app:3a
 
 You can connect to the server by going to http://127.0.0.1:8000/ in your browser (or by using `curl http://127.0.0.1:8000/`).
 
-The output will say "Hello None". This is because the app.py code is looking for a value in the enviroment, and since it doesn't find it, it defaults to "None". We'll fix this in the next excercise.
+The output will say "Hello None". This is because the app.py code is looking for a value in the enviroment, and since it doesn't find it, it defaults to "None". We'll fix this in the next exercise.
