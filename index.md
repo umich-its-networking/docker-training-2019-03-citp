@@ -12,5 +12,6 @@ layout: page
 - [Excercise 2: Nginx]({{ "/ex2-nginx/" | relative_url }})
 - Excercise 3:
   - [3a: Create an application and Dockerfile]({{ "/ex3a-dockerfile/" | relative_url }})
+  - [3b: Set enviromental variables]({{ "/ex3b-env-var/" | relative_url }})
 - Clean up (optional)
   - `docker system prune -a`
