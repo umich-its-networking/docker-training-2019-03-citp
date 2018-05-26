@@ -1,5 +1,5 @@
 ---
-title: Create an application and Dockerfile
+title: "Exercise 3a: Create an application and Dockerfile"
 layout: page
 ---
 
