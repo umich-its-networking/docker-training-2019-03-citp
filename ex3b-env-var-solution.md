@@ -20,7 +20,7 @@ Now the server will produce "Hello World".
 Run the container with the -e flag, like this:
 
 ```terminal
-docker run -p 8000:8000 -e NAME=Me app:3b
+$ docker run -p 8000:8000 -e NAME=Me app:3b
 ```
 
 Now the server will produce "Hello Me".
