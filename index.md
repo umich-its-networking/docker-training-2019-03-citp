@@ -14,5 +14,6 @@ layout: page
 - Building and deploying an application
   - [Exercise 3: Create an application and Dockerfile]({{ "/ex03-dockerfile/" | relative_url }})
   - [Exercise 4: Set enviromental variables]({{ "/ex04-env-var/" | relative_url }})
+  - [Exercise 5: Add Redis]({{ "/ex05-add-redis/" | relative_url }})
 - Clean up (optional)
   - `docker system prune -a`
