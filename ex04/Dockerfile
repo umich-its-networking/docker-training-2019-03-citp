@@ -1,7 +1,7 @@
 FROM python:3.6-slim
 
 ENV FLASK_DEBUG=1
-ENV NAME=WME=World
+ENV NAME=World
 
 COPY requirements.txt /tmp
 RUN pip install -r /tmp/requirements.txt

@@ -1,15 +1,15 @@
 ---
-title: "Exercise 3a: Create an application and Dockerfile"
+title: "Exercise 3: Create an application and Dockerfile"
 layout: page
 ---
 
 *(You can download the files for this exercise: [ex3a.zip]({{ "/ex3a.zip" | relative_url }}), and skip the file creation steps.)*
 
-Create a new directory called `ex3a`
+Create a new directory called `ex03`
 
 ```terminal
-$ mkdir ex3a
-$ cd ex3a
+$ mkdir ex03
+$ cd ex03
 ```
 
 In the new directory, create a file called `Dockerfile` with these contents:
@@ -55,7 +55,7 @@ if __name__ == "__main__":
 Build the image with the `build` command. If you don't have the `python:3.6-slim` image, Docker will fetch it for you because our Dockerfile is based on it.
 
 ```terminal
-$ docker build -t app:3a .
+$ docker build -t app:03 .
 Sending build context to Docker daemon   16.9kB
 Step 1/8 : FROM python:slim
 slim: Pulling from library/python
@@ -113,13 +113,13 @@ Step 8/8 : CMD ["python", "app.py"]
 Removing intermediate container e7b9e2c84b9b
  ---﹥ 769f7e92e6bf
 Successfully built 769f7e92e6bf
-Successfully tagged ex3a:latest
+Successfully tagged app:03
 ```
 
 Try running the same command again. Note that the output is different, and that it runs much faster, because the work has already been done and Docker is taking advantage of its cache.
 
 ```terminal
-$ docker build -t app:3a .
+$ docker build -t app:03 .
 Sending build context to Docker daemon  4.096kB
 Step 1/8 : FROM python:slim
  ---﹥ d6f22b3a2b87
@@ -147,13 +147,13 @@ Step 8/8 : CMD ["python", "app.py"]
 Removing intermediate container 25c39491e29d
  ---﹥ e0f91cc3e501
 Successfully built e0f91cc3e501
-Successfully tagged ex3a:latest
+Successfully tagged app:03
 ```
 
-Run a container based on the `ex3a` image.
+Run a container based on the `app:03` image.
 
 ```terminal
-$ docker run -p 8000:8000 app:3a
+$ docker run -p 8000:8000 app:03
  * Serving Flask app "app" (lazy loading)
  * Environment: production
    WARNING: Do not use the development server in a production environment.

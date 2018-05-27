@@ -3,10 +3,10 @@ title: "SOLUTION Exercise 2: Home directory web server"
 layout: page
 ---
 
-Change to the `ex2` directory, and use this Docker `run` command
+Change to the `ex02` directory, and use this Docker `run` command
 
 ```terminal
-$ cd ex2
+$ cd ex02
 $ docker run -v $(pwd):/usr/share/nginx/html:ro -p 8080:80 nginx
 ```
 
