@@ -145,8 +145,8 @@ Removing intermediate container d9daa4323887
 Step 8/8 : CMD ["python", "app.py"]
  ---﹥ Running in 25c39491e29d
 Removing intermediate container 25c39491e29d
- ---﹥ e0f91cc3e501
-Successfully built e0f91cc3e501
+ ---﹥ 769f7e92e6bf
+Successfully built 769f7e92e6bft
 Successfully tagged app:03
 ```
 
