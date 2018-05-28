@@ -17,3 +17,6 @@ layout: page
   - [Exercise 5: Add Redis]({{ "/ex05-add-redis/" | relative_url }})
 - Clean up (optional)
   - `docker system prune -a`
+
+
+This tutorial was written using Docker for Mac ([version details]({{ "/docker-version/" | relative_url }}))
