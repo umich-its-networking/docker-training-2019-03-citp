@@ -3,7 +3,7 @@ title: "Exercise 3: Create an application and Dockerfile"
 layout: page
 ---
 
-*(You can download the files for this exercise: [ex3a.zip]({{ "/ex3a.zip" | relative_url }}), and skip the file creation steps.)*
+*(You can download the files for this exercise: [ex03.zip]({{ "/ex03.zip" | relative_url }}), and skip the file creation steps.)*
 
 Create a new directory called `ex03`
 
