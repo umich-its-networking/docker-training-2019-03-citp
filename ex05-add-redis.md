@@ -70,7 +70,7 @@ You can run your app, like in previous exercises.
 $ docker run -p 8000:8000 app:05
 ```
 
-And connect to it at http://127.0.0.1/ in your browser. *But since you don't have a Redis server to connect to, you'll get an error.* (The error should say something about `redis.exceptions.ConnectionError`.) Let's fix that.
+And connect to it at `http://127.0.0.1/` in your browser. *But since you don't have a Redis server to connect to, you'll get an error.* (The error should say something about `redis.exceptions.ConnectionError`.) Let's fix that.
 
 
 *You're on your own now ...*
