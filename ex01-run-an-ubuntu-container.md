@@ -20,7 +20,7 @@ Digest: sha256:c8c275751219dadad8fa56b3ac41ca6cb22219ff117ca98fe82b42f24e1ba64e
 Status: Downloaded newer image for ubuntu:latest
 ```
 
-Create a Docker container based on the Ubuntu with the `docker run` command.
+Create a Docker container based on the Ubuntu image with the `docker run` command.
 
 ```terminal
 $ docker run -i -t ubuntu /bin/bash
