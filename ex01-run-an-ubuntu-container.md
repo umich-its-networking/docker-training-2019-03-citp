@@ -54,9 +54,6 @@ Create a new container by running the same `docker run` command as before. Then 
 $ docker run -i -t ubuntu /bin/bash
 root@473d78109f8b:/# ls -l /something
 ls: cannot access '/something': No such file or directory
-root@473d78109f8b:/# exit
-exit
-$
 ```
 
 Also note that the hostname is different. This is a different container.
