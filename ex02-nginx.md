@@ -7,7 +7,7 @@ Create a new directory called `ex02`. And create an `index.html` file in it.
 
 ```terminal
 $ mkdir ex02
-$ echo hello world > ex2/index.html
+$ echo hello world > ex02/index.html
 ```
 
 *You're on your own now ...*
