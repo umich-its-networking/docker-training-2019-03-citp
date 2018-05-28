@@ -3,8 +3,6 @@ title: "SOLUTION Exercise 4: Set enviromental variables"
 layout: page
 ---
 
-*(You can download the files for this exercise, this contains the solution to the first part of this exercise: [ex04.zip]({{ "/ex04.zip" | relative_url }}).)*
-
 ## Part 1
 
 Add this line to your Dockerfile:
