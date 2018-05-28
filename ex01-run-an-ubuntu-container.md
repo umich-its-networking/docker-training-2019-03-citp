@@ -61,4 +61,10 @@ $
 
 Also note that the hostname is different. This is a different container.
 
+While the ubuntu container is still running, open another terminal session and list the running processes in Docker.
 
+```terminal
+$ docker ps
+CONTAINER ID        IMAGE               COMMAND             CREATED             STATUS              PORTS               NAMES
+6501c99676fe        ubuntu              "bash"              9 seconds ago       Up 9 seconds                            frosty_payne
+```
