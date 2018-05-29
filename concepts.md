@@ -19,4 +19,5 @@ layout: page
 "To many the light bulb moment comes when they realize that Docker is not a virtualization technology, it’s an application delivery technology" (*[Ebook: Docker for the Virtualization Admin](https://goto.docker.com/docker-for-the-virtualization-admin.html)*).
 
 ## Resources
-- [Docker Cheat sheet](https://www.docker.com/sites/default/files/Docker_CheatSheet_08.09.2016_0.pdf)
+- [Docker Cheat sheet (official)](https://www.docker.com/sites/default/files/Docker_CheatSheet_08.09.2016_0.pdf)
+- [Docker Cheat sheet (community)](https://github.com/wsargent/docker-cheat-sheet)
