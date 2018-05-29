@@ -3,8 +3,6 @@ title: "SOLUTION Exercise 5: Add Redis"
 layout: page
 ---
 
-*(You can download the files for this exercise, this contains the solution to the first part of this exercise: [ex05.zip]({{ "/ex05.zip" | relative_url }}).)*
-
 ## Part 1
 
 Before we can link a Redis container to our app, it needs to be running.

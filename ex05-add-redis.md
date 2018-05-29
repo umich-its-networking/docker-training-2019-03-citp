@@ -1,5 +1,5 @@
 ---
-title: "Exercise 05: Add Redis"
+title: "Exercise 5: Add Redis"
 layout: page
 ---
 
