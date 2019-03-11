@@ -79,7 +79,7 @@ And connect to it at `http://127.0.0.1/` in your browser. *But since you don't h
 
 Figure out how to run a Redis container
   - in the background
-  - with then name `my-redis`
+  - with the name `my-redis`
 
 ## Part 2
 

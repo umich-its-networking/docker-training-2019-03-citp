@@ -14,6 +14,6 @@ $ echo hello world > ex02/index.html
 
 Figure out how to use nginx to serve the contents of the `ex02` directory and view it in your browser on your machine.  
 
-(Hint: read the documentation for the [nginx image on Docker Hub](https://hub.docker.com/\_/nginx/).)
+(Hint: read the documentation for the [nginx image on Docker Hub](https://hub.docker.com/_/nginx).)
 
 [\_]({{ "/ex02-nginx-solution/" | relative_url }})
