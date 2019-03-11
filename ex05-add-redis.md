@@ -5,7 +5,7 @@ layout: page
 
 *(You can download the files for this exercise: [ex05.zip]({{ "/ex05.zip" | relative_url }}), and skip the file update steps.)*
 
-Copy your directory from the previous exercise to a new directory called `ex3b`
+Copy your directory from the previous exercise to a new directory called `ex05`
 
 ```terminal
 $ cp -r ex04 ex05
